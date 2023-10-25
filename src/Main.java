@@ -23,18 +23,18 @@ public class Main {
 
         System.out.println(" ");
         System.out.println("Задача 2");
-        int maxsum = -1;
-        int minsum = 200_001;
+        int maxSum = -1;
+        int minSum = 200_001;
         for (int element : arr) {
-            if (element > maxsum) {
-                maxsum = element;
+            if (element > maxSum) {
+                maxSum = element;
             }
-            if (element < minsum) {
-                minsum = element;
+            if (element < minSum) {
+                minSum = element;
             }
         }
-        System.out.println("Минимальная сумма трат за день составила " + minsum + " рублей. " +
-                "Максимальная сумма трат за день составила " + maxsum + " рублей.");
+        System.out.println("Минимальная сумма трат за день составила " + minSum + " рублей. " +
+                "Максимальная сумма трат за день составила " + maxSum + " рублей.");
 
         System.out.println(" ");
         System.out.println("Задача 3");
